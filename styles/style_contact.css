@@ -5,15 +5,15 @@
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center
-}
-
-.contact-form form {
+    justify-content: center;
+  }
+  
+  .contact-form form {
     margin: 0;
-}
-
-.contact-form input,
-.contact-form textarea {
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -23,9 +23,9 @@
     font-family: sans-serif;
     font-size: 16px;
     resize: vertical;
-}
-
-.contact-form .btn {
+  }
+  
+  .contact-form .btn {
     background: #d6a692;
     color: #FFFFFF;
     padding: 12px 20px;
@@ -35,24 +35,24 @@
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 20px;
-}
-
-.contact-form .btn:hover {
+  }
+  
+  .contact-form .btn:hover {
     background: #efd9b4;
     transition: 0.2s ease-in-out;
-}
-
-.contact-form h2 {
+  }
+  
+  .contact-form h2 {
     text-align: center;
     margin-bottom: 20px;
-}
-
-.contact-form p {
+  }
+  
+  .contact-form p {
     text-align: center;
     margin-bottom: 20px;
-}
-
-#contact-info {
+  }
+  
+  #contact-info {
     width: 45%;
     min-width: 370px;
     color: rgb(239, 217, 180);
@@ -62,21 +62,54 @@
     font-size: 30px;
     text-align: center;
     margin: 10px;
-}
-
-#contact-field {
+  }
+  
+  #contact-field {
     width: 45%;
     min-width: 370px;
     background: #f1f1f1;
     padding: 2%;
     border-radius: 20px;
     margin: 10px;
-}
-
-.contact-form [lang="en"] {
+  }
+  
+  .contact-form [lang="en"] {
     display: none;
-}
-
-.contact-form [lang="fr"] {
+  }
+  
+  .contact-form [lang="fr"] {
     display: none;
-}
+  }
+  
+  /* styles for screens with a maximum width of 767px */
+  @media screen and (max-width: 767px) {
+    .contact-form {
+      width: 100%;
+      max-width: none;
+      height: auto;
+      padding: 10px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      margin-bottom: 3%;
+      margin-top: 1%;
+      font-size: 14px;
+    }
+    
+    .contact-form .btn {
+      font-size: 16px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+    
+    #contact-info,
+    #contact-field {
+      width: 100%;
+      min-width: auto;
+      margin: 0;
+      margin-bottom: 10%;
+      font-size: 20px;
+    }
+  }
+  
