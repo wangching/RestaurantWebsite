@@ -1,8 +1,15 @@
 .contact-form {
-    max-width: 100%;
+    width: 100%;
     margin: auto;
     padding: 20px;
     border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.contact-form div{
+    min-width: ;
 }
 
 .contact-form form {
@@ -50,23 +57,24 @@
 }
 
 #contact-info {
-    width: 48%;
-    float: left;
-    margin-right: 2%;
+    width: 45%;
+    min-width: 370px;
     color: rgb(239, 217, 180);
     border: 1px solid #efd9b4;
     border-radius: 20px;
     padding: 7px;
     font-size: 30px;
     text-align: center;
+    margin: 10px;
 }
 
 #contact-field {
-    width: 50%;
-    float: right;
+    width: 45%;
+    min-width: 370px;
     background: #f1f1f1;
     padding: 2%;
     border-radius: 20px;
+    margin: 10px;
 }
 
 .contact-form [lang="en"] {
