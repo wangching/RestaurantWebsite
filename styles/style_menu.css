@@ -1,0 +1,194 @@
+.Menu-container {
+    max-width: 1200px;
+    margin: 190px auto 0px;
+    padding: 1.5em;  
+    top: 0;
+  }
+
+  .Menu-container .title {
+    width: 50%;
+    margin: -20px auto;
+    position: flex;
+    text-align: center;
+}
+
+.Menu-container .title h1{
+    font-size:  48px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+}
+
+/*Content*/
+.content .list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-left: 1em;
+}
+
+.content .list li{
+    color: #fff;
+    margin: -25px 15px;
+    font-size:  22px;
+    font-weight: 600;
+    position: relative;
+    
+}
+
+/* list */
+.content .list li::after{
+   content: '';
+   position: absolute;
+   bottom: -3px;
+   width: 0%;
+   height: 3px;
+   left: 50%;
+   transform: translate(-50%);
+   background: red;
+}
+
+.content .list li:hover::after{
+width: 100%;
+top: 30px;
+ }
+
+
+/* content */
+.box-flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+
+    /* overflow-y: scroll;
+    max-height: calc(100vh - 250px); adjust this value to fit your layout */
+}
+
+.box{
+    width:48%;
+     background: rgba(255, 255, 255, 0.3); 
+     border-radius: 3px;
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+     position: relative; 
+     animation: movement 1s ease-in-out;
+
+}
+
+.box .box-img{
+    width: 60%;
+    position: relative; 
+    /* height: 45%; */
+}
+
+.box-img img{
+ width: 100%;
+ height:auto;
+ border-radius: 15px;
+
+}
+
+.box .text{
+    text-align: left;
+    width: 60%;
+}
+
+.text h3{
+    text-transform: uppercase;
+    color: #9eb4a2;
+    
+    position: absolute; /* Add this line to make the text a positioned child */
+    top: 65%; 
+    left: 2%; 
+    right: 10px; 
+    bottom: 10px; 
+    width: 20%;
+    height: 25%;
+    white-space: nowrap;
+}
+
+.text p{
+    font-size: 22px;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.text li{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.text section{
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+
+   @media screen and (min-width: 1000px) {
+   
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    /* .box-img {
+      width: 125px;
+      height: 125px;
+    } */
+    
+  } 
+
+  @media screen and (max-width: 767px) {
+    .box {
+      width: 100%;
+    }
+    .text {
+        font-size: 5px;
+    }
+
+    .text h3{
+        font-size: 20px;
+        top:55%;
+        left:5%;
+    
+    }
+    .text li{
+        font-size: 15px;
+    }
+    .box-flex{
+           overflow-y: scroll;
+    max-height: calc(100vh - 250px); 
+    }
+    
+    .Menu-container .title h1{
+        font-size: 30px;
+        margin-bottom: 25%;
+        margin-top: 20%;
+        text-align: center;
+   
+    }
+
+   
+  }
+   
+  @keyframes movement {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }

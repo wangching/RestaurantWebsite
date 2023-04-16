@@ -1,0 +1,39 @@
+.address{
+    background-color: #4d61603d;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.address p {
+    color: #d6a692;
+    margin: 0px;
+    font-size: 40px;
+}
+
+.openingHours{
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #efd9b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    color: #efd9b4;
+}
+
+.openingHours div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.openingHours div p{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.example{
+    height: 1000px;
+}

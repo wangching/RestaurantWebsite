@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/style_special.css">
+    <script src="scripts/script_special.js"></script>
+    <script src="scripts/script_global.js"></script>
+    <title>Special</title>
+</head>
+
+<body>
+    <div class="languageToggle">
+        <p id="englishToggle">En</p>
+        <p>|</p>
+        <p id="frenchToggle">Fr</p>
+    </div>
+    <nav>
+        <div>
+            <a href="menu.html">
+                <div>
+                    <span lang="en">Menu</span>
+                    <span lang="fr">Menu</span>
+                </div>
+            </a>
+            <a href="special.html">
+                <div>
+                    <span lang="en">Special</span>
+                    <span lang="fr">Spécial</span>
+                </div>
+            </a>
+            <a class="logo" href="home.html">
+                <img src="images/logo.png">
+                <span lang="en">Home</span>
+                <span lang="fr">Acceuil</span>
+            </a>
+            <a href="funForKids.html">
+                <div>
+                    <span lang="en">Fun For Kids</span>
+                    <span lang="fr">Les Enfants</span>
+                </div>
+            </a>
+            <a href="contact.html">
+                <div>
+                    <span lang="en">Contact</span>
+                    <span lang="fr">Contact</span>
+                </div>
+            </a>
+        </div>
+    </nav>
+    <div class="mainContainer">
+
+        <div class="special-header">
+
+
+            <span lang="en">
+                <h1 id="week"></h1>
+            </span>
+            <script>
+
+                let today = new Date();
+
+                let firstDayOfWeek = new Date(today.setDate(today.getDate() - today.getDay()));
+
+                let firstDay = `${firstDayOfWeek.toLocaleString('default', { month: 'long' })} ${firstDayOfWeek.getDate()}`;
+
+                let week = document.getElementById("week");
+
+                week.innerHTML = `Come check out our specials for the week of ${firstDay}!`;
+
+            </script>
+
+
+            <span lang="fr">
+                <h1 id="weekFr"></h1>
+            </span>
+            <script>
+
+                let auj = new Date();
+
+                let premierJourSemaine = new Date(today.setDate(today.getDate() - today.getDay()));
+
+                let premierJour = `${premierJourSemaine.getDate()} ${premierJourSemaine.toLocaleString('fr-FR', { month: 'long' })} `;
+
+                let weekFr = document.getElementById("weekFr");
+
+                weekFr.innerHTML = `Venez découvrir nos spéciaux pour la semaine du ${premierJour}!`;
+
+
+            </script>
+        </div>
+    </div>
+
+
+    <div class="specials-container">
+        <div class="special-object">
+            <img src="images/special-images/soup.jpg" alt="Soup" class="special-image">
+            <span lang="en">
+                <h2>Sweet Potato Soup</h2>
+                <p>$12</p>
+            </span>
+            <span lang="fr">
+                <h2>Soupe de Patate Douce</h2>
+                <p>$10</p>
+            </span>
+        </div>
+        <div class="special-object">
+            <img src="images/special-images/pasta.jpg" alt="Pasta" class="special-image">
+            <span lang="en">
+                <h2>Shrimp Pasta</h2>
+                <p>$22</p>
+            </span>
+            <span lang="fr">
+                <h2>Pâtes aux Crevettes</h2>
+                <p>$22</p>
+            </span>
+        </div>
+        <div class="special-object">
+            <img src="images/special-images/salad.jpg" alt="Salad" class="special-image">
+            <span lang="en">
+                <h2>Greek Salad</h2>
+                <p>$10</p>
+            </span>
+            <span lang="fr">
+                <h2>Salade Grecque</h2>
+                <p>$12</p>
+            </span>
+        </div>
+        <div class="special-object">
+            <img src="images/special-images/fish.jpg" alt="Fish" class="special-image">
+            <span lang="en">
+                <h2>Grilled Fish</h2>
+                <p>$26</p>
+            </span>
+            <span lang="fr">
+                <h2>Poisson Grillé</h2>
+                <p>$26</p>
+            </span>
+        </div>
+        <div class="special-object">
+            <img src="images/special-images/duck.jpg" alt="Duck" class="special-image">
+            <span lang="en">
+                <h2>Roasted Duck</h2>
+                <p>$30</p>
+            </span>
+            <span lang="fr">
+                <h2>Canard Rôti</h2>
+                <p>$30</p>
+            </span>
+        </div>
+        <div class="special-object">
+            <img src="images/special-images/cake.jpg" alt="Cake" class="special-image">
+            <span lang="en">
+                <h2>Blueberry Cheesecake</h2>
+                <p>$10</p>
+            </span>
+            <span lang="fr">
+                <h2>Gateau de Fromage aux Bleuets</h2>
+                <p>$10</p>
+            </span>
+        </div>
+    </div>
+    <div class=special-footer>
+        <span lang="en">
+            <h2> <a href="contact.html">Contact us</a> today to make a reservation!</h2>
+        </span>
+        <span lang="fr">
+            <h2>
+                <a href="contact.html">Contactez-nous</a> aujourd&apos;hui pour faire une réservation!
+            </h2>
+        </span>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+.funForKidsTitle h1{
+    color: #efd9b4;
+    font-size: 40px;
+}
+
+.funContainer{
+    display: flex;
+    background-color: #efd9b4;
+    padding: 10px;
+    border-radius: 10px;
+    border: 7px dashed #d6a692;
+    margin: 10px 0px;
+    width: 80%;
+}
+
+.funContainer a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.funContainer a img{
+    width: 150px;
+    height: 150px;
+}
+
+.funContainer li{
+    font-size: 35px;
+}
+
+.funContainer .click{
+    position: absolute;
+    color: #00000000;
+    font-size: 30px;
+    transform: scale(1) rotate(-30deg);
+    transition: all 0.2s
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .funContainer a img{
+        width: 100px;
+        height: 100px;
+    }
+    .funContainer{
+        width: 80%;
+    }
+    .funContainer a{
+        font-size: 30px;
+    }
+    .funContainer li{
+        font-size: 30px;
+    }
+    .funContainer .click{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .funContainer a img{
+        width: 80px;
+        height: 80px;
+    }
+    .funContainer a{
+        font-size: 20px;
+    }
+    .funContainer li{
+        font-size: 20px;
+    }
+    .funContainer .click{
+        font-size: 15px;
+    }
+}
