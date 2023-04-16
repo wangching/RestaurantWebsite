@@ -38,7 +38,15 @@
     transition: all 0.2s
 }
 
+.imgForPrintOutColoring{
+    max-width: 900px;
+    width: 100%;
+}
 
+.imgForPrintOutSearch{
+    max-width: 600px;
+    width: 100%;
+}
 
 
 
