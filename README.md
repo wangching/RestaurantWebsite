@@ -1,6 +1,6 @@
 # Team 5 Bistro MTL Website
 
-Welcome to the official website of Team 5 Bistro MTL! This website is designed to provide information and promote our fast-food restaurant. Our website is live at [team5bistromtl.netlify.app](https://team5bistromtl.netlify.app).
+Welcome to the official website of Team 5 Bistro MTL! This website is designed to provide information and promote our fast-food restaurant in both English and French. Our website is live at [team5bistromtl.netlify.app](https://team5bistromtl.netlify.app).
 
 ## Purpose of the Project
 
