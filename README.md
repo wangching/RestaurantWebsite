@@ -18,6 +18,16 @@ Our website consists of the following pages:
 - **Fun for Kids Page:** This page is dedicated to activities for kids, including coloring pages and word search games.
   - **Coloring Fun Page:** This page is dedicated to coloring pages for kids.
   - **Word Search Page:** This page features word search games for kids.
+ 
+ 
+Here's a photo of the restaurant in action:
+
+
+![home](https://user-images.githubusercontent.com/40672745/232339982-b6074463-a143-4824-b98e-4969f1fd86f2.jpg)
+![menu-breakfast](https://user-images.githubusercontent.com/40672745/232339923-cb5dfd42-c1c2-46ea-88b7-ace2aed17c1f.jpg)
+![menu-lunch](https://user-images.githubusercontent.com/40672745/232339929-a86e23d3-c004-44ba-b0b5-679ddc4f9eb4.jpg)
+![fun-for-kid](https://user-images.githubusercontent.com/40672745/232339931-f842ca1c-9379-4ade-97b4-88afb2030479.jpg)
+
 
 ## Technologies Used
 
