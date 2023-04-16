@@ -27,6 +27,7 @@ Here's a photo of the restaurant in action:
 ![home](https://user-images.githubusercontent.com/40672745/232347116-cde139cb-a0ac-4bbc-a23d-423210251bc0.jpg)
 ![menu-breakfast](https://user-images.githubusercontent.com/40672745/232347146-71dc540a-d4b6-4d01-97e5-37b544cf2139.jpg)
 ![menu-lunch](https://user-images.githubusercontent.com/40672745/232339929-a86e23d3-c004-44ba-b0b5-679ddc4f9eb4.jpg)
+![special](https://user-images.githubusercontent.com/40672745/232348620-07f2bee7-c5aa-47c0-b35b-17fd64665e54.jpg)
 ![fun-for-kid](https://user-images.githubusercontent.com/40672745/232339931-f842ca1c-9379-4ade-97b4-88afb2030479.jpg)
 ![Contact](https://user-images.githubusercontent.com/40672745/232347891-278e3eb8-a5a3-49c6-8a5e-87ca76ea0415.png)
 
